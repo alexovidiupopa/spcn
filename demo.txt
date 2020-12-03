@@ -1,0 +1,8 @@
+docker build -t alexpopagg/goodssharingapi .
+docker run -p 8080:8080 alexpopagg/goodssharingapi
+
+docker container ls 
+docker stop <name> 
+
+docker push alexpopagg/goodssharingapi
+
